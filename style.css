@@ -1,0 +1,221 @@
+/* Basislayout */
+
+html, body {
+    height: 100%;
+    padding: 0;
+     background-color: rgb(190, 255, 250); 
+     background-image: url("afbeeldingen/achtergrondfoto.jpg");
+    color: #303030;
+    font: Verdana, Arial, Sans-Serif;
+}
+
+
+main {
+    margin: 0 auto;
+    width: 700px;
+    position: relative;
+}
+
+
+article {
+    text-align: justify;
+}
+
+
+header {
+    color: rgb(56, 178, 182);
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/* specifieke stijlen */
+
+h1 {
+    border:5px dashed rgb(18, 107, 143);
+    color: rgba(154, 225, 253, 0.835);
+    padding:10px;
+}
+
+h3{
+    color: rgb(255,255,255);
+    background: rgb(18, 107, 143);
+   
+}
+
+p{
+    font-family: Garamond, serif;
+   
+}
+
+li {
+    color:rgb(18, 107, 143);
+}
+
+a {
+    color: rgb(117, 218, 243);
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    background-color: rgb(136, 184, 247);
+}
+
+.linkjes{
+    font-style:italic;
+}
+.bronnen{
+    font-family:monospace;
+    font-size:20px;
+    font-weight:bold;
+    color: rgb(18, 107, 143);
+}
+.inleiding{
+    font-family: Garamond, serif;
+    font-size:20px;
+    font-weight:bold;
+    font-style:italic;
+    color: rgb(18, 107, 143);
+}
+
+.woorden{
+    font-family: Garamond, serif;
+    font-style:italic;
+    font-weight:bold;
+    
+}
+
+.smalltext {
+    font-size: 0.7em;
+}
+
+
+
+/* foto's */
+.foto1 {
+    float: right;
+    margin: 20px;
+    width:  250px;
+}
+.foto2 {
+    float: left;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    width:  250px;
+}
+.foto3 {
+    float: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    animation: fadeIn 5s;
+}
+.foto4 {
+    float: left;
+    margin: 20px;
+    width:  250px;
+    position:relative;
+    animation: slide 6s;
+}
+.foto5 {
+    float: center;
+    margin: 20px;
+    margin-left:100px;
+    width:  250px;
+     position:relative;
+    animation: slide 3s;
+}
+.foto6 {
+     float: right;
+    margin: 15px;
+    width:400px;
+    animation: fadeIn 20s;
+}
+.foto7 {
+    float: right;
+    margin: 5px;
+    margin-top:30px;
+    width:200px;
+    position:relative;
+    animation: slide 4s;
+   
+}
+.foto8 {
+    float: left;
+    margin: 10px;
+    margin-top:40px;
+    margin-bottom:25px;
+   width:200px;
+   position:relative;
+    animation: slide 8s;
+}
+
+
+/* animatie */
+
+@keyframes fadeIn{
+    0% {opacity:0;}
+    100% {opacity:1;}
+
+}
+@keyframes slide{
+    0% {left:-900px;}
+    100% {left:0px;}
+    
+}
+
+
+/* navigatiebalk */
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    border: 3px solid rgb(18, 107, 143);
+    background-color: rgb(170, 219, 216, 0.986);
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    background-color: rgb(170, 219, 216, 0.986);
+    color:rgb(252, 250, 250);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #71bdc0;
+   
+}
+
+
+nav li a:focus {
+    background-color: #16f0ae;
+}
+
+nav li a.active {
+    background-color: rgb(98, 223, 212);
+    text-decoration:underline;
+    font-weight:bold;
+    font-style:italic;
+    font-size:1.1em;
+}
+
+
+
+
