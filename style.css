@@ -48,6 +48,11 @@ h3{
    
 }
 
+h4{
+    color: rgb(255,255,255);
+    font-weight:bold;
+}
+
 p{
     font-family: Garamond, serif;
    
