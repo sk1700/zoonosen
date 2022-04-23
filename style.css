@@ -37,14 +37,14 @@ footer {
 /* specifieke stijlen */
 
 h1 {
-    border:5px dashed rgb(18, 107, 143);
+    border:5px dashed rgb(18, 143, 112);
     color: rgba(154, 225, 253, 0.835);
     padding:10px;
 }
 
 h3{
     color: rgb(255,255,255);
-    background: rgb(18, 107, 143);
+    background: rgb(18, 143, 112);
    
 }
 
@@ -59,18 +59,18 @@ p{
 }
 
 li {
-    color:rgb(18, 107, 143);
+    color:rgb(18, 143, 116);
 }
 
 a {
-    color: rgb(117, 218, 243);
+    color: rgb(117, 243, 197);
     text-decoration: none;
 }
 
 
 a:hover {
     text-decoration: underline;
-    background-color: rgb(136, 184, 247);
+    background-color: rgb(136, 247, 203);
 }
 
 .linkjes{
@@ -191,8 +191,8 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    border: 3px solid rgb(18, 107, 143);
-    background-color: rgb(170, 219, 216, 0.986);
+    border: 3px solid rgb(29, 143, 75);
+    background-color: rgba(170, 219, 191, 0.986);
     overflow: hidden;
 }
 
@@ -202,7 +202,7 @@ nav ul li {
 
 nav li a {
     display: block;
-    background-color: rgb(170, 219, 216, 0.986);
+    background-color: rgb(170, 219, 191, 0.986);
     color:rgb(252, 250, 250);
     text-align: center;
     padding: 14px 16px;
@@ -210,7 +210,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #71bdc0;
+    background-color: #71c093;
    
 }
 
@@ -220,7 +220,7 @@ nav li a:focus {
 }
 
 nav li a.active {
-    background-color: rgb(98, 223, 212);
+    background-color: rgb(98, 223, 181);
     text-decoration:underline;
     font-weight:bold;
     font-style:italic;
