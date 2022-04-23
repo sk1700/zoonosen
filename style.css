@@ -119,8 +119,28 @@ a:hover {
 .foto2 {
     float: left;
     margin: 10px;
-    width:  300px;
+    width:  275px;
 }
+
+
+.foto3 {
+    float: right;
+    margin: 10px;
+    width:250px;
+    position:relative;
+    animation: slide 4s;
+   
+}
+.foto4 {
+    float: left;
+    margin: 10px;
+   width:250px;
+   position:relative;
+    animation: slide 8s;
+}
+
+/*
+
 .foto3 {
     float: right;
     margin: 5px;
@@ -139,6 +159,7 @@ a:hover {
    position:relative;
     animation: slide 8s;
 }
+*/
 
 .foto14 {
     float: left;
