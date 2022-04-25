@@ -37,14 +37,14 @@ footer {
 /* specifieke stijlen */
 
 h1 {
-    border:5px dashed rgb(18, 143, 112);
+    border:5px dashed rgb(18, 143, 114);
     color: rgba(154, 253, 217, 0.835);
     padding:10px;
 }
 
 h3{
     color: rgb(255,255,255);
-    background: rgb(18, 143, 112);
+    background: rgb(18, 143, 114);
    
 }
 
@@ -59,7 +59,7 @@ p{
 }
 
 li {
-    color:rgb(18, 143, 116);
+    color:rgb(18, 143, 114);
 }
 
 a {
@@ -80,14 +80,14 @@ a:hover {
     font-family:monospace;
     font-size:20px;
     font-weight:bold;
-    color: rgb(18, 107, 143);
+    color: rgb(18, 143, 114);
 }
 .inleiding{
     font-family: Helvetica, sans-serif;
     font-size:20px;
     font-weight:bold;
     font-style:italic;
-    color: rgb(18, 107, 143);
+    color: rgb(18, 143, 114);
 }
 
 .woorden{
