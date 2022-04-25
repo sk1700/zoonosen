@@ -126,7 +126,8 @@ a:hover {
 .foto3 {
     float: right;
     margin: 10px;
-    margin-top:30px;
+    margin-top:40px;
+    margin-bottom:25px;
     width:250px;
     position:relative;
     animation: slide 4s;
@@ -136,7 +137,7 @@ a:hover {
     float: left;
     margin: 10px;
     margin-top:40px;
-    margin-bottom:25px;
+    margin-bottom:30px;
    width:250px;
    position:relative;
     animation: slide 8s;
